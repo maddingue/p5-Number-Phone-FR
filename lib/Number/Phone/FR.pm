@@ -123,6 +123,8 @@ sub country_code() { 33 }
 # clean subclassing so we explicitely implement it here
 sub country() { 'FR' }
 
+sub regulator { 'Arcep, http://www.arcep.fr/' }
+
 
 sub new
 {
